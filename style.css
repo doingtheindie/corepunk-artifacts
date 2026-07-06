@@ -1,0 +1,153 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #14161c;
+  color: #e8e6df;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+a { color: inherit; }
+header {
+  background: #1b1e26;
+  border-bottom: 1px solid #2a2e38;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header .logo {
+  font-weight: 700;
+  color: #ff813f;
+  font-size: 18px;
+  text-decoration: none;
+}
+header nav a {
+  text-decoration: none;
+  color: #9a9a94;
+  font-size: 14px;
+  margin-right: 16px;
+}
+header nav a.active, header nav a:hover {
+  color: #ff813f;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.toolbar input, .toolbar select {
+  background: #1b1e26;
+  border: 1px solid #2a2e38;
+  color: #e8e6df;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.toolbar input { flex: 1; min-width: 240px; }
+.count {
+  font-size: 13px;
+  color: #7a7a74;
+  align-self: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: #1b1e26;
+  border: 1px solid #2a2e38;
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+.card.build {
+  border: 2px solid #ff813f;
+}
+.card .badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,129,63,0.15);
+  color: #ff813f;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.card .head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  background: #14161c;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.card .name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.card .stats {
+  font-size: 12px;
+  color: #ff813f;
+}
+.card .divider {
+  border-top: 1px solid #2a2e38;
+  padding-top: 8px;
+}
+.card .passive-title {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.card .passive-desc {
+  font-size: 12px;
+  color: #9a9a94;
+  line-height: 1.5;
+}
+h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+h2 { font-size: 17px; font-weight: 600; }
+.subtitle { color: #7a7a74; font-size: 14px; margin: 0 0 20px; }
+.branch {
+  background: #1b1e26;
+  border: 1px solid #2a2e38;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+.branch h2 { margin: 0 0 12px; color: #ff813f; }
+.talent-row {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #2a2e38;
+}
+.talent-row:first-of-type { border-top: none; }
+.talent-row .tname {
+  font-weight: 600;
+  font-size: 13px;
+  min-width: 170px;
+  flex-shrink: 0;
+}
+.talent-row .tdesc {
+  font-size: 13px;
+  color: #9a9a94;
+  line-height: 1.5;
+}
