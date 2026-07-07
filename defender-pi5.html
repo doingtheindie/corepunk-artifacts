@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Corepunk — Mi build</title>
+<title>Corepunk — Defender PI+5</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,29 +10,51 @@
   <a class="logo" href="index.html">Corepunk Artifacts</a>
   <nav>
     <a href="index.html">Artefactos T3</a>
-    <a class="active" href="build.html">Defender solo</a>
+    <a href="build.html">Defender solo</a>
     <a href="legionario.html">Legionario KunFuu</a>
-    <a href="defender-pi5.html">Defender PI+5</a>
+    <a class="active" href="defender-pi5.html">Defender PI+5</a>
   </nav>
 </header>
 <main>
-  <h1>Defender solo — Prison Island alto nivel</h1>
-  <p class="subtitle">Arma de rotura de armadura, Q física en spam · 6 artefactos + 3 ramas de talento</p>
+  <h1>Defender PI+5</h1>
+  <p class="subtitle">Prison Island · grupos de 1-3 enemigos y élites · máximo avance, no pulls grandes</p>
+
+  <h2 style="margin-bottom:12px;">Arma y escudo</h2>
+  <div class="grid" style="margin-bottom:32px;">
+          <div class="card build">
+        <div class="head"><div class="name">Skullbreaker&#039;s Veil</div></div>
+        <div class="stats">AS 0.3-0.9, WD 22.2-83.3</div>
+        <div class="why-box" style="border-top:none; margin-top:0; padding-top:0;">Arma — se mantiene. Ahora es aún más central: Champion Strike empodera tu próximo autoataque, así que la velocidad de ataque (AS 0.3-0.9) determina cuántas ventanas tienes para activarlo. La rotura de armadura on-hit sigue sumando daño real.</div>
+      </div>
+          <div class="card build">
+        <div class="head"><div class="name">Forgemaster&#039;s Furnace</div></div>
+        <div class="stats">Armor, MS, SBC, SBP</div>
+        <div class="why-box" style="border-top:none; margin-top:0; padding-top:0;">Escudo — se mantiene. Sus stats de sbc/sbp potencian directamente Shield Bash (W3), que seguimos usando para encadenar control sobre un único objetivo.</div>
+      </div>
+      </div>
 
   <h2 style="margin-bottom:4px;">Maestría — 26 / 26 puntos</h2>
-  <p class="subtitle" style="margin-bottom:16px;">Malla conectada en 8 direcciones. Coste real: 1 punto por activar el nodo 1 de cada habilidad (entrada libre), 3 puntos (2 de conector + 1 de activar) por cada nodo siguiente conectado a uno ya activo.</p>
+  <p class="subtitle" style="margin-bottom:16px;">Fuera Splash Wave (Q4) y Shield Block (E4) — escalan con número de enemigos. Dentro Sluggish Discipline (Q3) e Initial Impact (E2), daño directo contra un único objetivo.</p>
   <div class="talent-branches-row" style="grid-template-columns: repeat(4, 1fr); margin-bottom:32px;">
           <div class="talent-grid-wrap theme-tank">
         <h2>Q</h2>
         <p class="branch-sub">Champion Strike</p>
         <div class="talent-desc-list" style="margin-top:0; border-top:none; padding-top:0;">
                       <div class="talent-row">
-              <div class="tname">Splash Wave <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Champion Strike ahora golpea en área — hasta 2 enemigos adicionales cerca por 50% del daño original.</div>
+              <div class="tname">Swift Legs <span style="color:#ff813f;">(1 pts)</span></div>
+              <div class="tdesc">Nodo 1, entrada libre. +10% velocidad de movimiento tras usar Q — reposicionamiento barato.</div>
+            </div>
+                      <div class="talent-row">
+              <div class="tname">Prolonged Protection <span style="color:#ff813f;">(3 pts)</span></div>
+              <div class="tdesc">Extiende la duración del buff defensivo que da Champion Strike — más uptime del kit sin gastar recursos extra.</div>
+            </div>
+                      <div class="talent-row">
+              <div class="tname">Sluggish Discipline <span style="color:#ff813f;">(3 pts)</span></div>
+              <div class="tdesc">En rango completo, el objetivo golpeado hace 10% menos daño durante 5s — reduce el output de la élite mientras dure el intercambio. Clave contra un solo objetivo duro.</div>
             </div>
                       <div class="talent-row">
               <div class="tname">Blademaster <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Champion Strike se convierte en un combo de 3 golpes (máx 2s entre golpes): el 2º pega 10% más y el 3º 20% más. Es el &quot;spam de Q&quot; que buscábamos, verificado.</div>
+              <div class="tdesc">Champion Strike se convierte en combo de 3 golpes escalando en daño — se llega aquí barato saltando en diagonal desde W4, sin pasar por Splash Wave (inútil 1v1).</div>
             </div>
                   </div>
       </div>
@@ -42,11 +64,11 @@
         <div class="talent-desc-list" style="margin-top:0; border-top:none; padding-top:0;">
                       <div class="talent-row">
               <div class="tname">Shield bash <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Tras golpear con una skill, golpe de escudo en semicírculo: empuje + stun en área. Resetea el autoataque.</div>
+              <div class="tdesc">Adyacente a Q3. Golpe de escudo en semicírculo tras golpear con una skill: empuje + stun. El control funciona igual de bien contra 1 objetivo que contra varios.</div>
             </div>
                       <div class="talent-row">
               <div class="tname">Front Kick <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Tras Shield Throw o Shield Bash, puedes rematar con una patada que noquea y stunea otra vez — encadena el control en vez de que se acabe en un solo golpe.</div>
+              <div class="tdesc">Adyacente a W3. Patada de seguimiento que encadena el stun — mantiene a la élite bloqueada más tiempo, menos daño que te devuelve.</div>
             </div>
                   </div>
       </div>
@@ -56,19 +78,15 @@
         <div class="talent-desc-list" style="margin-top:0; border-top:none; padding-top:0;">
                       <div class="talent-row">
               <div class="tname">Commanding Cry <span style="color:#ff813f;">(1 pts)</span></div>
-              <div class="tdesc">Nodo 1, entrada libre. Reduce el daño recibido mientras dura el taunt, y en rango completo refleja daño en cada autoataque mientras tengas enemigos provocados.</div>
+              <div class="tdesc">Nodo 1, entrada libre y suelta. Más duración de taunt en Assault.</div>
             </div>
                       <div class="talent-row">
               <div class="tname">Leg Day <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Más alcance de salto en Assault — llegas mejor al centro del pull antes de que te rodeen.</div>
+              <div class="tdesc">Adyacente a E1. +15-30% daño al primer objetivo golpeado por Assault — daño directo contra un único objetivo, no depende de golpear a varios.</div>
             </div>
                       <div class="talent-row">
               <div class="tname">Sweeping Strike <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">El golpe de aterrizaje de Assault se vuelve un ataque en semicírculo, y en rango completo gana +10% daño por cada objetivo golpeado — tu daño de área escala con el tamaño del pull.</div>
-            </div>
-                      <div class="talent-row">
-              <div class="tname">Shield Block <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Por cada enemigo provocado por tu taunt, ganas % de bloqueo (hasta 25%) — más mitigación que escala con el pull, igual que el resto del build.</div>
+              <div class="tdesc">Adyacente a W3/E2. El golpe de aterrizaje se vuelve un ataque en semicírculo — el daño base es sólido incluso sin el bonus de múltiples objetivos.</div>
             </div>
                   </div>
       </div>
@@ -77,12 +95,8 @@
         <p class="branch-sub">Vanguard</p>
         <div class="talent-desc-list" style="margin-top:0; border-top:none; padding-top:0;">
                       <div class="talent-row">
-              <div class="tname">Empowered Vanguard <span style="color:#ff813f;">(1 pts)</span></div>
-              <div class="tdesc">Nodo 1, entrada libre. +armor/mr por cada enemigo cercano (hasta 6) — te vuelves más tanque cuanto más grande el pull.</div>
-            </div>
-                      <div class="talent-row">
               <div class="tname">Fallen Fury <span style="color:#ff813f;">(3 pts)</span></div>
-              <div class="tdesc">Al bajar del 40% de vida, +20-35% lifesteal — tu botón de pánico de sustain justo cuando el pull se complica.</div>
+              <div class="tdesc">Adyacente a E1. Al bajar del 40% de vida, +20-35% lifesteal — tu red de seguridad, funciona igual contra 1 élite que contra un pull.</div>
             </div>
                   </div>
       </div>
@@ -90,19 +104,19 @@
 
   <h2 style="margin-bottom:12px;">Artefactos (6)</h2>
   <div class="grid" style="margin-bottom:32px;">
-                                        <div class="card build">
+                                                                                                                                                                                  <div class="card build">
         <div class="head">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/implant/implant-arcanite-plating-t3.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
-          <div class="name">Arcanite Plating</div>
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/implant/implant-guardians-wrath-t3.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+          <div class="name">Guardian&#039;s Wrath</div>
         </div>
-        <div class="stats">MANA 200-400, SP 15-30, ARMOR 30-50</div>
+        <div class="stats">AP 10-20, ARMOR 60-100</div>
         <div class="divider">
-          <div class="passive-title">Bulwark Plating</div>
-          <div class="passive-desc">When you take damage exceeding 15% [health] within 2 seconds, gain +25% [armor] for 5 seconds.  [cd] 15 sec.</div>
+          <div class="passive-title">Strong Grip</div>
+          <div class="passive-desc">On-hit: Auto-attacks deal [15 + 5%[ap] + 10%[armor]] additional [pd].</div>
         </div>
-                <div class="why-box">Objetivo: no explotar en melee. Al recibir un golpe fuerte (&gt;15% de tu vida en 2s) ganas +25% de armadura durante 5s — justo cuando un pull te alfa-strikea.</div>
+                <div class="why-box">Objetivo: daño de autoataque. Como Q ahora depende del ritmo de autoataque, este extra plano escalando AP+armor se activa constantemente.</div>
               </div>
-                                                                                                                                                                <div class="card build">
+                      <div class="card build">
         <div class="head">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/implant/implant-heart-stinger-t3.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
           <div class="name">Heart Stinger</div>
@@ -112,7 +126,7 @@
           <div class="passive-title">Predator&#039;s Bite</div>
           <div class="passive-desc">When dealing [pd], deals additional [150 + 7% target&#039;s current [health]] [pd] (maximum 300 [pd] for monsters) and returns it to the artifact&#039;s wielder as [heal].  [cd] 20 sec.</div>
         </div>
-                <div class="why-box">Objetivo: sustain. Cada vez que tu Q inflige daño físico, te cura por el daño extra causado — es el motor de vida del build, ligado directamente al spam de Q.</div>
+                <div class="why-box">Objetivo: sustain ligado al daño físico. Cura al golpear con pd — funciona exactamente igual contra 1 objetivo que contra varios, no necesita cleave.</div>
               </div>
                                   <div class="card build">
         <div class="head">
@@ -124,7 +138,7 @@
           <div class="passive-title">Thirst Unbound</div>
           <div class="passive-desc">Increases [abilitysteal] and [lifesteal] effects by 35%.</div>
         </div>
-                <div class="why-box">Objetivo: multiplicar el sustain. Amplifica un 35% el robo de vida de Heart Stinger y cualquier otro lifesteal que consigas — no cura por sí sola, pero potencia todo lo demás.</div>
+                <div class="why-box">Objetivo: multiplicar el sustain. Amplifica un 35% tanto el lifesteal de Heart Stinger como el de Fallen Fury (maestría T2) a la vez.</div>
               </div>
                                         <div class="card build">
         <div class="head">
@@ -136,9 +150,21 @@
           <div class="passive-title">Mana Booster</div>
           <div class="passive-desc">On-ability hit: Whenever an ability deals [pd] or restores [health], increases [mregen] by 100% for 5 seconds.</div>
         </div>
-                <div class="why-box">Objetivo: maná infinito. Cada vez que tu Q golpea, duplicas la regeneración de maná durante 5s — con Q en spam constante, tienes esta regeneración casi siempre activa.</div>
+                <div class="why-box">Objetivo: cubrir el maná que perdíamos al sacar la rama Mage de los talentos — mantiene el ritmo de Q sin quedarte seco en un intercambio largo contra una élite.</div>
               </div>
-                                        <div class="card build">
+                            <div class="card build">
+        <div class="head">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/implant/implant-mechanized-rampart-t3.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+          <div class="name">Mechanized Rampart</div>
+        </div>
+        <div class="stats">AP 10-20, ARMOR 30-50, HASP 20-40</div>
+        <div class="divider">
+          <div class="passive-title">Tankido</div>
+          <div class="passive-desc">Upon receiving [pd] from abilities, the bearer is infused with Aegis Vigor for 5 seconds. Each stack of Aegis Vigor amplifies your next [healing] or [dmg] ability by 5%, up to a maximum of 5 stacks.</div>
+        </div>
+                <div class="why-box">Objetivo: más daño contra objetivos duros. Al recibir daño de habilidades (algo frecuente peleando contra una élite que pega fuerte), amplificas tu próxima habilidad hasta un 25%.</div>
+              </div>
+                      <div class="card build">
         <div class="head">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/implant/implant-neofoliage-band-t3.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
           <div class="name">NeoFoliage Band</div>
@@ -148,27 +174,15 @@
           <div class="passive-title">Combat Mana Shield</div>
           <div class="passive-desc">On dropping below 35% [health], create a [300 + 10% maximum [mana]] [shield] for 5 seconds. While active, +40 [ap].  [cd] 25 sec.</div>
         </div>
-                <div class="why-box">Objetivo: supervivencia reactiva. Por debajo del 35% de vida te da un escudo y un pico de daño — tu botón de pánico contra un pull que se complica.</div>
+                <div class="why-box">Objetivo: supervivencia con daño incluido. Por debajo del 35% de vida, escudo + 40 de AP — no solo sobrevives, también rematas más rápido.</div>
               </div>
-                                                                                  <div class="card build">
-        <div class="head">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/implant/implant-riftbreakers-shell-t3.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
-          <div class="name">Riftbreaker&#039;s Shell</div>
-        </div>
-        <div class="stats">HEALTH 200-400, ARMOR 30-50, HASP 20-40</div>
-        <div class="divider">
-          <div class="passive-title">Force Barrier</div>
-          <div class="passive-desc">Protects the wearer of the artifact with a force barrier that reduces incoming [pd] by 10% for the next 2000 [pd]. After the [shield] is destroyed, it will restart in 30 seconds.  [cd] 30 sec.</div>
-        </div>
-                <div class="why-box">Objetivo: reducir daño físico entrante. Absorbe los primeros 2000 de daño físico que recibas — contrarresta ir con poca armadura pegando en melee.</div>
-              </div>
-                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                      </div>
 
-  <h2 style="margin-bottom:12px;">Talentos (15)</h2>
+  <h2 style="margin-bottom:12px;">Talentos (15 — Tank / Warrior / Assassin)</h2>
   <div class="talent-branches-row">
             <div class="talent-grid-wrap theme-tank">
     <h2>TANK</h2>
-    <p class="branch-sub">Supervivencia ante burst</p>
+    <p class="branch-sub">Mitigación universal</p>
     <div class="talent-grid">
               <div class="talent-cell picked" title="Stalwart Defender">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/stalwart-defender.png" alt="Stalwart Defender" loading="lazy" onerror="this.style.visibility='hidden'">
@@ -179,15 +193,15 @@
               <div class="talent-cell " title="Battle-Hardened">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/battle-hardened.png" alt="Battle-Hardened" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell " title="Shielded Defense">
+              <div class="talent-cell picked" title="Shielded Defense">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/shielded-defense.png" alt="Shielded Defense" loading="lazy" onerror="this.style.visibility='hidden'">
-                  </div>
+          <span class="rank">1/5</span>        </div>
               <div class="talent-cell " title="Protector&#039;s Presence">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/protectors-presence.png" alt="Protector&#039;s Presence" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell picked" title="Menacing Aura">
+              <div class="talent-cell " title="Menacing Aura">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/menacing-aura.png" alt="Menacing Aura" loading="lazy" onerror="this.style.visibility='hidden'">
-          <span class="rank">1/5</span>        </div>
+                  </div>
               <div class="talent-cell " title="Bulwark">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/bulwark.png" alt="Bulwark" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
@@ -222,8 +236,8 @@
           <div class="tdesc">When the character has less than 50/55/60/65/75% [health], he receives 15/20/25/30/40 [armor] and 15/20/25/30/40 [mr].</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Menacing Aura</div>
-          <div class="tdesc">For each enemy nearby (20m), the character gains 3/4/5/6/10 [armor] and 3/4/5/6/10 [mr], up to a maximum of 6 stacks.</div>
+          <div class="tname">Shielded Defense</div>
+          <div class="tdesc">Taking magic damage grants a magical shield for 10/12/14/16/20% characters maximum [health]. Taking physical damage grants a physical shield for 10/12/14/16/20% characters maximum [health]. Cooldown: 120/115/110/105/95 seconds.</div>
         </div>
               <div class="talent-row">
           <div class="tname">Indomitable</div>
@@ -241,7 +255,7 @@
   </div>
               <div class="talent-grid-wrap theme-warrior">
     <h2>WARRIOR</h2>
-    <p class="branch-sub">Daño sostenido</p>
+    <p class="branch-sub">Daño sostenido 1v1</p>
     <div class="talent-grid">
               <div class="talent-cell " title="Stacking Strength">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/stacking-strength.png" alt="Stacking Strength" loading="lazy" onerror="this.style.visibility='hidden'">
@@ -252,12 +266,12 @@
               <div class="talent-cell " title="Rampage Rush">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/rampage-rush.png" alt="Rampage Rush" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell picked" title="Multi-Strike Mastery">
+              <div class="talent-cell " title="Multi-Strike Mastery">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/multi-strike-mastery.png" alt="Multi-Strike Mastery" loading="lazy" onerror="this.style.visibility='hidden'">
-          <span class="rank">1/5</span>        </div>
-              <div class="talent-cell " title="Healthy Aggression">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/healthy-aggression.png" alt="Healthy Aggression" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
+              <div class="talent-cell picked" title="Healthy Aggression">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/healthy-aggression.png" alt="Healthy Aggression" loading="lazy" onerror="this.style.visibility='hidden'">
+          <span class="rank">1/5</span>        </div>
               <div class="talent-cell " title="Adrenaline Rush">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/adrenaline-rush.png" alt="Adrenaline Rush" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
@@ -282,12 +296,12 @@
               <div class="talent-cell " title="Charge Catalyst">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/charge-catalyst.png" alt="Charge Catalyst" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell " title="True Strike">
+              <div class="talent-cell picked" title="True Strike">
           <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/true-strike.png" alt="True Strike" loading="lazy" onerror="this.style.visibility='hidden'">
-                  </div>
-              <div class="talent-cell picked" title="Carnage Drive">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/bloodthirst.png" alt="Carnage Drive" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="rank">1/5</span>        </div>
+              <div class="talent-cell " title="Carnage Drive">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/bloodthirst.png" alt="Carnage Drive" loading="lazy" onerror="this.style.visibility='hidden'">
+                  </div>
           </div>
     <div class="talent-desc-list">
               <div class="talent-row">
@@ -295,8 +309,8 @@
           <div class="tdesc">The character deals 1/1.5/2/2.5/3.5% more damage for each ability used within the last 10 seconds, up to a maximum of 5/7.5/10/12.5/17.5%.</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Multi-Strike Mastery</div>
-          <div class="tdesc">When dealing damage with an ability to more than one target, damage is increased by 2/2.5/3/3.5/5% for each additional target hit. Up to 5 targets. Lasts for 10/11/12/13/15 seconds.</div>
+          <div class="tname">Healthy Aggression</div>
+          <div class="tdesc">The character deals 8/9/10/11/13% more damage when their [health] is above 80/70/60/50/30%.</div>
         </div>
               <div class="talent-row">
           <div class="tname">Executioner&#039;s Edge</div>
@@ -307,81 +321,81 @@
           <div class="tdesc">The character gains additional  0.8/0.9/1.0/1.1/1.3% [ap] or 1.2/1.35/1.5/1.65/1.95% [sp] or 1.6/1.8/2.0/2.2/2.6% [hasp] (adaptive) depending on bonus [health] or [mana] (adaptive).</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Carnage Drive</div>
-          <div class="tdesc">The character gains an additional 5/6/7/8/10% [ap] or [sp] or [hasp] (adaptive) for every 15% of their missing [health].</div>
+          <div class="tname">True Strike</div>
+          <div class="tdesc">On-hit: Every third basic attack deals an additional 3/3.5/4/4.5/5.5% of the target&#039;s current [health] as true damage (capped at 200/250/300/350/450 damage vs monsters).</div>
         </div>
           </div>
   </div>
-              <div class="talent-grid-wrap theme-mage">
-    <h2>MAGE</h2>
-    <p class="branch-sub">Motor de maná</p>
+              <div class="talent-grid-wrap theme-assassin">
+    <h2>ASSASSIN</h2>
+    <p class="branch-sub">Contra objetivo único</p>
     <div class="talent-grid">
-              <div class="talent-cell " title="Emergency Rewind">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/emergency-rewind.png" alt="Emergency Rewind" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Lurking Precision">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/lurking-precision.png" alt="Lurking Precision" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell " title="Mana Flow">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/mana-flow.png" alt="Mana Flow" loading="lazy" onerror="this.style.visibility='hidden'">
-                  </div>
-              <div class="talent-cell picked" title="Clear Mind">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/clear-mind.png" alt="Clear Mind" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell picked" title="Shadow Dance">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/shadow-dance.png" alt="Shadow Dance" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="rank">1/5</span>        </div>
-              <div class="talent-cell " title="Mindshatter Resistance">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/mindshatter-resistance.png" alt="Mindshatter Resistance" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Shadow Strike">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/shadow-strike.png" alt="Shadow Strike" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell picked" title="Slaying Momentum">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/slaying-momentum.png" alt="Slaying Momentum" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Bloodthirsty Edge">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/bloodthirsty-edge.png" alt="Bloodthirsty Edge" loading="lazy" onerror="this.style.visibility='hidden'">
+                  </div>
+              <div class="talent-cell picked" title="Piercing Onslaught">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/piercing-onslaught.png" alt="Piercing Onslaught" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="rank">1/5</span>        </div>
-              <div class="talent-cell " title="Vengeance of the Interrupted">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/vengeance-of-the-interrupted.png" alt="Vengeance of the Interrupted" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Critical Affliction">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/critical-affliction.png" alt="Critical Affliction" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell " title="Arcane Insight">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/arcane-insight.png" alt="Arcane Insight" loading="lazy" onerror="this.style.visibility='hidden'">
-                  </div>
-              <div class="talent-cell picked" title="Mana Siphon">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/mana-siphon.png" alt="Mana Siphon" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell picked" title="Hunter’s Instinct">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/predator.png" alt="Hunter’s Instinct" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="rank">1/5</span>        </div>
-              <div class="talent-cell " title="Mana Shield">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/mana-shield.png" alt="Mana Shield" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Backstab">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/backstab.png" alt="Backstab" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell picked" title="Maetheric Reservoir">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/maetheric-reservoir.png" alt="Maetheric Reservoir" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Surprise Attack">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/surprise-attack.png" alt="Surprise Attack" loading="lazy" onerror="this.style.visibility='hidden'">
+                  </div>
+              <div class="talent-cell " title="Ghostly Reflexes">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/ghostly-reflexes.png" alt="Ghostly Reflexes" loading="lazy" onerror="this.style.visibility='hidden'">
+                  </div>
+              <div class="talent-cell picked" title="Giant Slayer">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/giant-slayer.png" alt="Giant Slayer" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="rank">1/5</span>        </div>
-              <div class="talent-cell " title="Aetheric Redirection">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/aetheric-redirection.png" alt="Aetheric Redirection" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Blade Fury">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/blade-fury.png" alt="Blade Fury" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell " title="Concentrated Power">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/concentrated-power.png" alt="Concentrated Power" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Critstacker">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/critstacker.png" alt="Critstacker" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
-              <div class="talent-cell " title="Temporal Rupture">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/temporal-rupture.png" alt="Temporal Rupture" loading="lazy" onerror="this.style.visibility='hidden'">
-                  </div>
-              <div class="talent-cell picked" title="Chrono Cascade">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/chrono-cascade.png" alt="Chrono Cascade" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell picked" title="Blade Master">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/blade-master.png" alt="Blade Master" loading="lazy" onerror="this.style.visibility='hidden'">
           <span class="rank">1/5</span>        </div>
-              <div class="talent-cell " title="Focused Assault">
-          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/focused-assault.png" alt="Focused Assault" loading="lazy" onerror="this.style.visibility='hidden'">
+              <div class="talent-cell " title="Disruptive Strike">
+          <img src="https://d2fwno52vggyhx.cloudfront.net/items/talent/disruptive-strike.png" alt="Disruptive Strike" loading="lazy" onerror="this.style.visibility='hidden'">
                   </div>
           </div>
     <div class="talent-desc-list">
               <div class="talent-row">
-          <div class="tname">Clear Mind</div>
-          <div class="tdesc">Reduces [mana] cost of abilities by 10/12/14/16/20%.</div>
+          <div class="tname">Shadow Dance</div>
+          <div class="tdesc">After using a skill, the next 3 auto-attack have an increased [pcc] chance by 15/18/21/24/30%. Cooldown 2.5 seconds.</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Slaying Momentum</div>
-          <div class="tdesc">After killing an enemy, abilities that are on [cd] reduce their [cd] by 2/2.25/2.5/2.75/3.25 second. Do not work on criters.</div>
+          <div class="tname">Piercing Onslaught</div>
+          <div class="tdesc">The character gains a stacking buff when their ability deal damage to an enemy, granting 1/1.5/2/2.5/3.5 [fppen] or [fmpen] (adaptive) per stack (up to 15 stacks). Stacks last for 7 seconds.</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Mana Siphon</div>
-          <div class="tdesc">Damage dealing or healing abilities restore 2/2.7/3.4/4.1/5.5% of the damage dealt or healing done as [mana].</div>
+          <div class="tname">Hunter’s Instinct</div>
+          <div class="tdesc">When the character attacks an enemy alone, they gain 10/12/14/16/20% [ppen] or [mpen] (adaptive) and deal an additional 15% [pcp] or [mcp] (adaptive) against this enemy  for 5 seconds. Cooldown is 20 seconds.</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Maetheric Reservoir</div>
-          <div class="tdesc">Increases character&#039;s maximum [mana] by 10/12/14/16/20%.</div>
+          <div class="tname">Giant Slayer</div>
+          <div class="tdesc">If the character attacks an enemy with maximum [health] greater than the character&#039;s own (3x for monsters), the enemy receives 10/12/14/16/20% increased damage from the character.</div>
         </div>
               <div class="talent-row">
-          <div class="tname">Chrono Cascade</div>
-          <div class="tdesc">After using an ability, [cd] on your other abilities reduce by 0.5/0.75/1/1.25/1.75 second. Cooldown 1.5 second.</div>
+          <div class="tname">Blade Master</div>
+          <div class="tdesc">When the character scores a critical hit, they gain a stack of Blade Master. At 5 stacks, their next ability deals 20/25/30/35/45% increased damage and consumes all stacks.</div>
         </div>
           </div>
   </div>
@@ -389,11 +403,11 @@
 
   <h2 style="margin-bottom:12px;">Stats secundarios prioritarios</h2>
   <div class="branch">
-    <div class="talent-row"><div class="tname">CD (Cooldown Reduction)</div><div class="tdesc">Prioridad máxima — multiplica directamente la frecuencia de tu spam de Q.</div></div>
-    <div class="talent-row"><div class="tname">Costred (Cost Reduction)</div><div class="tdesc">Se suma a Mana-Powered Reactor — más rondas de Q antes de quedarte sin maná.</div></div>
-    <div class="talent-row"><div class="tname">Lifesteal</div><div class="tdesc">Se multiplica con el +35% de Lifestealer's Amulet y con la curación de Heart Stinger.</div></div>
-    <div class="talent-row"><div class="tname">Ppen / Fppen</div><div class="tdesc">Penetración de armadura — coherente con tu arma de rotura de armadura, más daño real contra mobs de Prison Island.</div></div>
-    <div class="talent-row"><div class="tname">Pdecrease</div><div class="tdesc">Reducción plana de daño físico — responde directamente al riesgo de "explotar" en melee con poca armadura.</div></div>
+    <div class="talent-row"><div class="tname">AS (Attack Speed)</div><div class="tdesc">Máxima prioridad — más ventanas para el empoderamiento de Champion Strike (Q).</div></div>
+    <div class="talent-row"><div class="tname">Pcc / Pcp</div><div class="tdesc">Sinergiza con Shadow Dance, Hunter's Instinct y Blade Master de la rama Assassin.</div></div>
+    <div class="talent-row"><div class="tname">Ppen / Fppen</div><div class="tdesc">Se suma a Hunter's Instinct y Giant Slayer contra objetivos tanky (élites, jefes).</div></div>
+    <div class="talent-row"><div class="tname">Lifesteal</div><div class="tdesc">Se multiplica con Lifestealer's Amulet.</div></div>
+    <div class="talent-row"><div class="tname">Costred</div><div class="tdesc">Mantiene el ritmo de Q en intercambios largos contra un solo objetivo, sin quedarte sin maná.</div></div>
   </div>
 </main>
 </body>
